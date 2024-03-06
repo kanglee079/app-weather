@@ -48,6 +48,7 @@ class WeatherHomeScreen extends StatelessWidget {
                 maxtemperature: "36.4°C",
                 mintemperature: "22.4°C",
               ),
+              const SizedBox(height: 50),
             ],
           ),
         ),
