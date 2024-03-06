@@ -1,6 +1,6 @@
-# bt_flutter
+# Bài tập Flutter
 
-A new Flutter project.
+Xây dựng giao diện app weather
 
 ## Getting Started
 
