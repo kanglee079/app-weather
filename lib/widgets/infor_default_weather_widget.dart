@@ -25,7 +25,6 @@ class InforDefaultWeatherWidget extends StatelessWidget {
           style: const TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
           ),
         ),
         const SizedBox(height: 25),
@@ -41,7 +40,6 @@ class InforDefaultWeatherWidget extends StatelessWidget {
           style: const TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.normal,
-            color: Colors.white,
           ),
         ),
         const SizedBox(height: 10),
@@ -50,7 +48,6 @@ class InforDefaultWeatherWidget extends StatelessWidget {
           style: const TextStyle(
             fontSize: 64,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
           ),
         ),
         SizedBox(
@@ -61,7 +58,6 @@ class InforDefaultWeatherWidget extends StatelessWidget {
             style: const TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.normal,
-              color: Colors.white,
             ),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,

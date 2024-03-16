@@ -62,7 +62,6 @@ class InforDetailWeatherWidget extends StatelessWidget {
       child: Text(
         text,
         style: const TextStyle(
-          color: Colors.white,
           fontSize: 20,
         ),
         maxLines: 1,

@@ -44,11 +44,11 @@ class InforForecastWeatherWidget extends StatelessWidget {
               children: [
                 Text(
                   "Max: $maxtemperature",
-                  style: const TextStyle(fontSize: 20, color: Colors.white),
+                  style: const TextStyle(fontSize: 20),
                 ),
                 Text(
                   "Min: $mintemperature",
-                  style: const TextStyle(fontSize: 20, color: Colors.white),
+                  style: const TextStyle(fontSize: 20),
                 ),
               ],
             ),
@@ -92,8 +92,7 @@ class HourItem extends StatelessWidget {
         children: [
           Text(
             hour,
-            style: const TextStyle(
-                fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 10),
           Image.asset(
@@ -107,7 +106,6 @@ class HourItem extends StatelessWidget {
             temperature,
             style: const TextStyle(
               fontSize: 16,
-              color: Colors.white,
             ),
           ),
         ],
